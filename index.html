@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+    <script src="./common.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1782133930-logo.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Grand Casino Baden | Casino-Unterhaltung in Baden, Schweiz</title>
+    <meta name="description"
+          content="Besuchen Sie Grand Casino Baden für Poker, Roulette, Slots, Black Jack, Texas Hold’em, Gastronomie, Events und Gästeclub-Vorteile in Baden, Schweiz.">
+    <link rel="canonical" href="https://grandcasinobasel-online.com">
+    <meta property="og:title" content="Grand Casino Baden | Casino-Unterhaltung in Baden, Schweiz">
+    <meta property="og:description"
+          content="Besuchen Sie Grand Casino Baden für Poker, Roulette, Slots, Black Jack, Texas Hold’em, Gastronomie, Events und Gästeclub-Vorteile in Baden, Schweiz.">
+    <meta property="og:url" content="https://grandcasinobasel-online.com">
+    <meta property="og:site_name" content="Grand Casino Baden | Casino-Unterhaltung in Baden, Schweiz">
+    <meta property="og:locale" content="de-CH">
+    <meta property="og:image" content="_assets/images/1782133921-main.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="grandcasinobasel-online.com">
+    <meta name="twitter:title" content="Grand Casino Baden | Casino-Unterhaltung in Baden, Schweiz">
+    <meta name="twitter:description"
+          content="Besuchen Sie Grand Casino Baden für Poker, Roulette, Slots, Black Jack, Texas Hold’em, Gastronomie, Events und Gästeclub-Vorteile in Baden, Schweiz.">
+    <meta name="twitter:image" content="_assets/images/1782133921-main.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1782133924-favicon.svg" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="de-CH">
+    <link rel="apple-touch-icon" href="_assets/images/1782133887-favicon.svg" sizes="96x96">
+    <link rel="icon" href="_assets/images/1782133887-favicon.svg" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1782133968-main.webp" as="image" fetchpriority="high">
+
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#B21754"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#F29302"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#B21754"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#B21754"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#F29302"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#222829"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+
+    <header class="header" id="top">
+        <div class="headerBlock">
+
+            <!-- Logo -->
+            <div class="headerLogoContainer">
+                <a href="https://grandcasinobasel-online.com" aria-label="Main page">
+                    <img
+                            class="header__logo logo"
+                            src="_assets/images/1782133930-logo.svg"
+                            alt="Grand Casino Baden"
+                    />
+                </a>
+            </div>
+
+            <div class="navBlockMain">
+
+            <!-- Main Navigation -->
+            <nav>
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                </button>
+
+                <ul class="nav__list nav__list--header">
+
+                    <li><a href="index">index</a></li>
+                    <li><a href="restaurants">Restaurants</a></li>
+                    <li><a href="online">Online</a></li>
+                    <li><a href="vip">VIP</a></li>
+                    <li><a href="events">Events</a></li>
+                    <li><a href="uberuns">Über uns</a></li>
+                    <li><a href="nutzungsbedingungen">Nutzungsbedingungen</a></li>
+                    <li><a href="datenschutz">Datenschutz</a></li>
+                    <li><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+                <!-- CTA buttons -->
+                <div class="btn__list">
+<!--                    <div class="nav__item">-->
+<!--                        <a-->
+<!--                                class="nav__link"-->
+<!--                                target="_blank"-->
+<!--                                href="casino.html?id=example-offer-id"-->
+<!--                                aria-label=""-->
+<!--                                id="navSignUp"-->
+<!--                        >-->
+<!--                            -->
+<!--                        </a>-->
+<!--                    </div>-->
+
+                    <div class="nav__item nav__itemLarge">
+                        <a
+                                class="nav__link nav__linkLarge"
+                                target="_blank"
+                                href="casino.html?id=example-offer-id"
+                                aria-label="Jetzt spielen"
+                                id="navPlayNow"
+                        >
+                            Jetzt spielen
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextMobile">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Spiel starten"><span
+                            class="heroButton btn btn--large">Bonus sichern</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Grand Casino Baden – Casino-Unterhaltung, Gastronomie, Events und Gästeclub in Baden</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top-Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Alle Casino </button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Vorteile</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Über 300 Slots und Videopoker täglich.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Klassische Tische: Roulette, Blackjack, Ultimate Hold’em.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Swiss Jackpot – Gewinne schon ab 1 CHF. [grandcasinobasel.com]</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Ultimate Texas Hold’em an aktiven Live‑Tischen.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Täglich 10:00–05:00, Tische ab 16:00 geöffnet.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Gratis Eintritt und kostenlose Parkplätze für Gäste.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Direkt verbunden mit dem Airport Hotel Basel.</p>
+                                </li>
+                                <li class="providersGroup">Die Kombination aus grossem Spielangebot, langen Öffnungszeiten und direkter Hotelanbindung macht das Grand Casino Basel zur starken Wahl für Weekend‑Trips und für Jackpot‑Jäger wie auch Liebhaber klassischer Tischspiele.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Mehr erfahren"><span
+                                class="advantagesButton btn btn--large">Mehr erfahren</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Grand Casino Baden App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1782135242-mobile.webp" title="Grand Casino Baden Mobile"
+                                alt="Grand Casino Baden App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Grand Casino Baden App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Grand Casino Baden App" title="Grand Casino Baden App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Beliebte Spiele</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Alle Spiele"><span
+                            class="gamesButton btn btn--large">Alle Spiele</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Über Grand Casino Basel</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription"></p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Gewinn 5,6 Mio. CHF.</li>
+                                        <li class="historyItem">Swiss Jackpot: 1 CHF.</li>
+                                        <li class="historyItem">Zehn Swiss‑Jackpot‑Automaten vor Ort.</li>
+                                    </ul>
+                                    <p class="historyDescription">Das Grand Casino Basel ist ein modernes Casino im Dreiländereck. Es verbindet klassische Tischspiele mit vielfältigen Slots. Die Atmosphäre ist stilvoll und gastfreundlich für Einsteiger und Profis. Der Eintritt funktioniert unkompliziert, der Service ist aufmerksam. Vor Ort gibt es Bars und ein Restaurant mit internationaler Küche.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1782135329-desktop.webp" alt="Grand Casino Basel" title="Grand Casino Baden Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">Das Casino ist direkt mit einem Hotel verbunden und erleichtert ein Casino‑Weekend. Gäste schätzen den lockeren Dresscode und bequeme Lounge‑Bereiche. Themenabende, Konzerte und spezielle Events sorgen für Abwechslung. Getrennte Bereiche für Nichtraucher und Raucher sind vorhanden. Es ist ein praktischer Ausgangspunkt für Unterhaltung im Grenzgebiet.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Grand Casino Baden: Elegante Atmosphäre, Spielbereiche, Bars und Öffnungszeiten </h2>
+                        <div class="historyDescription"> <p> Im Grand Casino Baden verbinden wir klassische Casino-Eleganz mit moderner Unterhaltung, persönlichem Service und einem vielseitigen Angebot für Spiel, Genuss und Events. Unsere Gäste erleben über 310 Spielautomaten, Roulette, Blackjack, Ultimate Texas Hold’em, Poker, elektronische Spielformate und attraktive Jackpot-Systeme in einer stilvollen Umgebung. Die Spielbereiche sind täglich ab 11:00 geöffnet, während unsere Live Games täglich ab 15:00 für echtes Tischspiel-Flair sorgen. Von Sonntag bis Donnerstag bleibt unser Casino bis 04:00 geöffnet, am Freitag und Samstag bis 05:00. Wir gestalten den Besuch so, dass Gäste frei zwischen Slots, Live Games, Bar, Restaurant, Lounge und Entertainment wechseln können. Im PLÜ Restaurant & Lounge geniessen Gäste Lunch, Dinner, Sonntagsbrunch, saisonale Spezialitäten und besondere Dinnerformate mit Casino-Charakter. Unsere Bar- und Loungebereiche eignen sich perfekt für Aperitif, Drinks, Gespräche, Spielpausen und den stilvollen Ausklang eines Abends. Regelmässige Formate wie Spin 2 Win, Lotto, Ladies Special, Live Music, Afterwork, Dine & Dance, Comedy und Themenpartys bringen zusätzliche Energie in unser Haus. Für besondere Abende bieten wir Erlebnisangebote wie Dine & Gamble, Casino Deluxe und Entertainment Dinner an. Unser Grand Winners Club belohnt treue Gäste mit Coins, Level Points, Eintrittsvorteilen, Parkprivilegien, Gastronomie-Vorteilen, Eventeinladungen und exklusiven Services. Auf höheren Clubstufen erweitern wir das Erlebnis mit Prioritäten, Valet Parking, besonderen Einladungen und ausgewählten Premium-Vorteilen. Grand Casino Baden ist damit ein Ort für spontane Spielmomente, stilvolle Dinner, lange Casino-Abende und besondere Erlebnisse mit Freunden. </p> <br> <div style="width:100%; max-width:100%; overflow:hidden;"> <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;"> <tr> <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"> Bereich </th> <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"> Tage </th> <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"> Zeit </th> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Spielautomaten und Hauptspielbereiche</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Sonntag bis Donnerstag</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">11:00 – 04:00</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Spielautomaten und Hauptspielbereiche</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Freitag und Samstag</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">11:00 – 05:00</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live Game: Roulette, Blackjack, Ultimate Texas Hold’em</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Täglich</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab 15:00</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Poker und Turnierformate</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach aktuellem Spielplan</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Abendliche Sessions</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Elektronische Spielbereiche</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Täglich</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Während der Casino-Öffnungszeiten</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">PLÜ Restaurant & Lounge</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Montag bis Samstag</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">11:00 – 23:00</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">PLÜ Restaurant & Lounge</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Sonntag</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">10:30 – 22:00</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Valet Parking</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Täglich</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab 19:00</td> </tr> </table> </div> <br>
+<h3 style = "font-weight: bold;font-size: 32px;"> Grand Casino Baden: Service, Sprachen, Währung, Zahlungen und Gewinnauszahlung </h3> <p> Im Grand Casino Baden legen wir grossen Wert auf persönlichen Service, klare Abläufe und eine angenehme Begleitung vom Empfang bis zur Auszahlung. Unser Team begrüsst Gäste am Eingang, unterstützt bei der Registrierung, erklärt die Zutrittsregeln und hilft bei der Orientierung in den Spielbereichen, an der Kasse, in den Bars und im PLÜ Restaurant & Lounge. An den Live-Tischen begleiten unsere Croupiers das Spiel mit Professionalität, Ruhe und Aufmerksamkeit. Gäste erhalten verständliche Informationen zu Roulette, Blackjack, Ultimate Texas Hold’em, Poker, Einsätzen, Jetons, Tickets und Zusatzchancen. Neue Besucher profitieren von einer einfachen Einführung, während regelmässige Gäste den persönlichen und effizienten Service unseres Hauses schätzen. Wir möchten, dass jeder Besuch sicher, stilvoll und komfortabel beginnt.<br><br> Die wichtigste Servicesprache im Grand Casino Baden ist Deutsch, zusätzlich unterstützen wir Gäste gerne auf Englisch. Je nach Team und Bereich ist auch Kommunikation in weiteren europäischen Sprachen möglich. Am Empfang, an der Kasse, im Spielbereich, im Restaurant und in den Barbereichen achten wir auf klare Antworten und eine ruhige Beratung. Wer zum ersten Mal bei uns ist, erhält auf Wunsch eine einfache Orientierung zu Anmeldung, Grand Winners Karte, Spielbereichen, Ticket-System, Jetons und Kassenabläufen. Im PLÜ Restaurant & Lounge begleitet unser Team Gäste bei Reservationen, Menüfragen, Dinnerformaten und Gruppenanlässen. So gestalten wir den Besuch intuitiv, freundlich und serviceorientiert.<br><br> Unsere zentrale Währung ist CHF, und die Abläufe an Automaten, Live-Tischen, Kasse, Restaurant und Bar orientieren sich daran. Gäste nutzen Bargeld, Jetons, Automatentickets sowie die vor Ort verfügbaren Kassen- und Zahlungslösungen nach den gültigen Regeln. An den Spielautomaten kann ein Betrag eingesetzt, ein Spielguthaben genutzt und anschliessend ein Ticket ausgedruckt werden. Dieses Ticket kann an weiteren Automaten verwendet oder an der Kasse beziehungsweise an einem Rückwechselterminal eingelöst werden. Bei Fragen zu Karten, Limiten, grösseren Beträgen, Bargeldbezug, Währungswechsel oder Dokumenten begleitet unser Team die Gäste direkt vor Ort. Wir gestalten finanzielle Abläufe klar, korrekt und komfortabel.<br><br> Die Auszahlung von Gewinnen erfolgt je nach Spielart über Ticket, Jetons, Kasse oder eine gesonderte Abwicklung bei grösseren Gewinnsummen. Unser Personal erklärt, wie ein Automatenticket eingelöst wird, wie Jetons zurückgewechselt werden und welche Schritte bei höheren Auszahlungen notwendig sind. Für grössere Beträge können ein gültiger Ausweis, eine Identitätsprüfung und die üblichen Kassenprozesse erforderlich sein. In einem privaten Spielkontext sind Gewinne aus einem konzessionierten landbasierten Casino in der Regel steuerfrei. Besondere persönliche Situationen, berufsmässiges Spiel oder individuelle Steuerfragen hängen jedoch immer vom Einzelfall ab. Wir unterstützen Gäste vor Ort mit klarer Orientierung und diskretem Service. </p> <br>
+<h3 style = "font-weight: bold;font-size: 32px;"> Grand Casino Baden: Besuchsregeln, Dresscode, Zutritt und Anreise </h3> <p> Im Grand Casino Baden gestalten wir den Besuch stilvoll, sicher und komfortabel, damit Gäste Spiel, Gastronomie und Unterhaltung entspannt geniessen können. Der Zutritt zu den Spielbereichen ist ab 18 Jahren mit einem gültigen amtlichen Ausweis möglich. Beim ersten Besuch wird das Dokument gemäss den geltenden Casino-Regeln registriert. Wir empfehlen gepflegte Kleidung, die zur eleganten Atmosphäre unseres Hauses passt. Smart Casual, gepflegter Abendstil und ein sauberer, stimmiger Auftritt sind bei uns immer passend. Nicht geeignet sind Flip-Flops, Sportbekleidung, Badebekleidung, stark verschmutzte Kleidung oder sehr informelle Outfits. Kopfbedeckungen sind möglich, sofern die Identifikation des Gastes jederzeit gewährleistet bleibt. Grössere Taschen, Mäntel, Schirme und sperrige Gegenstände werden bequem an der Garderobe abgegeben. Für Sicherheit und Komfort gelten klare Regeln zu mitgebrachten Gegenständen und zum Verhalten im Spielbereich. Gäste erreichen uns bequem zu Fuss vom Bahnhof, mit dem Auto, mit dem Taxi oder über unseren Valet Parking Service am Abend. Für Autofahrer stehen Parkmöglichkeiten und praktische Vorteile im Rahmen des Grand Winners Club zur Verfügung. Wir möchten, dass jeder Besuch klar vorbereitet, angenehm begleitet und stilvoll erlebt wird. </p> <br> <h3 style = "font-weight: bold; font-size: 24px;"> Zutritt zum Grand Casino Baden </h3> <ul> <li>• Der Zutritt ist ab 18 Jahren mit gültigem amtlichem Ausweis möglich.</li> <li>• Anerkannte Dokumente sind unter anderem Pass, Identitätskarte, Führerausweis oder ein offizieller Aufenthaltsausweis.</li> <li>• Beim ersten Besuch wird das Dokument nach den geltenden Vorgaben registriert.</li> <li>• Der reguläre Eintritt beträgt CHF 10; Grand Winners Gäste ab Silver profitieren von Eintrittsvorteilen für sich und eine Begleitperson.</li> <li>• Mit der Grand Winners Karte wird der Zugang besonders komfortabel und mit Clubvorteilen verbunden.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Dresscode im Grand Casino Baden </h3> <ul> <li>• Wir begrüssen gepflegte Kleidung, Smart Casual und einen stilvollen Auftritt.</li> <li>• Das Outfit sollte zu Casino, Bar, Restaurant und Abendunterhaltung passen.</li> <li>• Flip-Flops, Sportbekleidung, Badebekleidung, sehr kurze Shorts und verschmutzte Kleidung sind nicht geeignet.</li> <li>• Kopfbedeckungen sind erlaubt, wenn die Identifikation des Gastes möglich bleibt.</li> <li>• Mäntel, Schirme, grosse Taschen und sperrige Gegenstände werden an der Garderobe abgegeben.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Sicherheit und Hausregeln </h3> <ul> <li>• Wir schaffen eine sichere Atmosphäre für Spiel, Genuss und Begegnung.</li> <li>• Waffen oder gefährliche Gegenstände dürfen nicht mitgeführt werden.</li> <li>• Stark alkoholisierte Gäste erhalten keinen Zutritt, damit der Komfort aller Besucher erhalten bleibt.</li> <li>• Tiere sind nicht zugelassen; ausgenommen sind offiziell ausgewiesene Assistenzhunde.</li> <li>• In allen Spielbereichen gelten die jeweiligen Spielregeln und die Hinweise unseres Personals.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Parkieren und Anreise </h3> <ul> <li>• Vom Bahnhof aus ist Grand Casino Baden bequem zu Fuss erreichbar.</li> <li>• Mit dem Auto ist die Anreise komfortabel, und in der Umgebung stehen Parkmöglichkeiten zur Verfügung.</li> <li>• Gästen stehen praktische Parkplätze für einen entspannten Start in den Abend zur Verfügung.</li> <li>• Der Valet Parking Service ist täglich ab 19:00 verfügbar.</li> <li>• Grand Winners Gäste erhalten je nach Stufe Vergünstigungen oder kostenlose Park- und Valet-Vorteile.</li> </ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;"> Grand Casino Baden: Grand Winners Club mit Levels, Coins und exklusiven Vorteilen </h3> <p> Grand Winners ist unser Clubprogramm für Gäste, die ihren Besuch im Grand Casino Baden mit zusätzlichen Vorteilen verbinden möchten. Die Teilnahme ist kostenlos und eröffnet Zugang zu Coins, Level Points, Geschenken, Eintrittsvorteilen, Parkservices, Gastronomie-Privilegien und Eventeinladungen. Unser System ist einfach aufgebaut: Level Points bestimmen die Clubstufe, Coins können für ausgewählte Leistungen und Vorteile genutzt werden. Gäste sammeln Punkte beim Spiel an Automaten, elektronischen Spielstationen, Live-Tischen und Pokerformaten. Zusätzlich sammeln Mitglieder Coins im PLÜ Restaurant & Lounge, in der Bar, im Club COCO sowie bei Seminaren und Events. Die Registrierung erfolgt direkt am Empfang mit einem gültigen Ausweis. Neue Mitglieder erhalten ein Willkommensgeschenk und können die Clubkarte sofort verwenden. Grand Winners umfasst die Stufen Member, Silver, Gold, Diamond, Diamond Millionaire und Black Circle. Je höher die Stufe, desto stärker werden Coin-Multiplikator, Eintrittsvorteile, Parkleistungen, Prioritäten und persönliche Services. Besonders aktive Gäste profitieren von kostenlosem Eintritt mit Begleitung, Slot-Reservierung, Priorität bei Tischspielen, Geburtstagsgeschenken, Gastronomie-Vorteilen und exklusiven Einladungen. Mit Grand Winners machen wir jeden Besuch wertvoller, persönlicher und komfortabler. Die Clubkarte ist damit der Schlüssel zu einem erweiterten Erlebnis im Grand Casino Baden. </p> <br> <h3 style = "font-weight: bold; font-size: 24px;"> Registrierung im Grand Winners Club </h3> <ul> <li>• Die Mitgliedschaft ist kostenlos und wird direkt am Empfang im Grand Casino Baden erstellt.</li> <li>• Teilnehmen können Gäste ab 18 Jahren mit gültigem amtlichem Ausweis.</li> <li>• Neue Mitglieder erhalten ein Willkommensgeschenk.</li> <li>• Nach der Registrierung können Coins und Level Points sofort gesammelt werden.</li> <li>• Für die Gutschrift sollte die Grand Winners Karte vor dem Spiel oder vor der Zahlung vorgelegt werden.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Coins und Level Points sammeln </h3> <ul> <li>• Spielautomaten: CHF 1 Einsatz = 1 Level Point und 1 Coin.</li> <li>• Elektronisches Blackjack und Roulette: CHF 2 Einsatz = 1 Level Point und 1 Coin.</li> <li>• Live Roulette, Blackjack und Ultimate Texas Hold’em: Gutschrift nach Spieldauer und durchschnittlichem Einsatz.</li> <li>• Poker: Gutschrift je nach Spielart und Spielzeit.</li> <li>• PLÜ Restaurant & Lounge, Bar und Club COCO: pro CHF Umsatz werden 20 Coins gutgeschrieben.</li> <li>• Seminare und Events: pro CHF Umsatz werden 20 Coins gutgeschrieben.</li> <li>• Silver sammelt Coins mit Faktor 1.2x.</li> <li>• Gold sammelt Coins mit Faktor 1.3x.</li> <li>• Diamond und Black Circle sammeln Coins mit Faktor 1.4x.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Clubstufen und Voraussetzungen </h3> <ul> <li>• Member: Startstufe direkt nach der kostenlosen Registrierung.</li> <li>• Silver: ab 15 000 Level Points pro Kalenderjahr.</li> <li>• Gold: ab 65 000 Level Points pro Kalenderjahr.</li> <li>• Diamond: ab 250 000 Level Points pro Kalenderjahr.</li> <li>• Diamond Millionaire: ab 1 000 000 Level Points pro Kalenderjahr.</li> <li>• Black Circle: persönliche Einladung für besonders exklusive Betreuung.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Vorteile und Bonusleistungen </h3> <ul> <li>• Willkommensgeschenk für neue Mitglieder direkt bei der Registrierung.</li> <li>• Eintritt mit Coins für Member nach aktuellem Clubmodell.</li> <li>• Kostenloser Eintritt ab Silver für Mitglied und Begleitperson.</li> <li>• Valet Parking mit Vorteilen je nach Level bis hin zum kostenlosen Service auf höheren Stufen.</li> <li>• Parkvorteile je nach Stufe bis hin zu kostenlosem Parkieren.</li> <li>• Gastronomie-Vorteile im PLÜ Restaurant & Lounge und Nutzung von Coins für ausgewählte Angebote.</li> <li>• Geburtstagsgeschenk mit Spielvorteilen und doppelten Coins in besonderen Geburtstagsmomenten.</li> <li>• Einladungen zu Turnieren, Club-Events und besonderen Abenden.</li> <li>• Slot-Reservierung je nach Clubstufe für komfortable Spielpausen.</li> <li>• Priorität auf Wartelisten für Tischspiele ab Diamond.</li> <li>• Zugang zu ausgewählten Partys und Events mit Begleitung auf höheren Stufen.</li> <li>• Black Circle mit zusätzlichen Hotelvorteilen, Limousinenservice und persönlicher Betreuung.</li> </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Softwareanbieter </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Grand Casino Baden: Jackpots, Spielangebote, Spezialformate und saisonale Erlebnisse </h2>
+                        <div class="historyDescription"> <p> Im Grand Casino Baden erweitern wir das Casino-Erlebnis mit Jackpots, Spezialangeboten, Turnieren, Dinner-Formaten, Shows und saisonalen Events. Unsere Gäste finden neben dem Grand Winners Club viele zusätzliche Möglichkeiten, den Besuch mit Spielspannung und Unterhaltung zu verbinden. An den Spielautomaten stehen unterschiedliche Jackpot-Systeme wie Baden Jackpot, Lions Jackpot, Lucky 14, Penny Jackpot, Goldenlink und progressive Multilevel-Formate zur Verfügung. Einzelne Jackpot-Systeme beginnen bereits ab CHF 0.01, CHF 0.02, CHF 0.05 oder CHF 0.50 Mindesteinsatz. In der Geschichte des Grand Casino Baden wurden grosse Jackpot-Gewinne mit Beträgen von über CHF 4 900 000 erzielt. Auch an den Live-Tischen bieten Zusatzchancen wie Swiss Jack beim Blackjack oder der Progressive Jackpot bei Ultimate Texas Hold’em zusätzliche Spannung. Für Gäste mit Turnierlust veranstalten wir dynamische Spiel- und Wettbewerbsformate wie Spin 2 Win und Pokerturniere. Genussangebote wie Dine & Gamble ab CHF 89 oder Casino Deluxe ab CHF 275 pro Person verbinden Menü, Eintritt, Spielguthaben und besondere Abendmomente. Unser Veranstaltungskalender umfasst Comedy, Lotto, Quiz Dinner, Spin 2 Win, Dine & Dance, Live Music und saisonale Genussanlässe. Themenpartys und Clubformate schaffen ein lebendiges Nachtgefühl nach dem Spiel oder Dinner. Wir gestalten diese Angebote so, dass jeder Besuch eine neue Gelegenheit für Spannung, Genuss und Begegnung bietet. Grand Casino Baden verbindet damit Casino, Jackpot-Erlebnis, Gastronomie und Entertainment zu einem vielseitigen Abendprogramm. </p> <br> <h3 style = "font-weight: bold; font-size: 24px;"> Spielboni und Jackpot-Chancen </h3> <ul> <li>• Baden Jackpot: Jackpot-System auf ausgewählten Automaten mit Teilnahme ab niedrigen Einsätzen.</li> <li>• Lions Jackpot: progressives Slot-Format mit Teilnahme ab CHF 0.02.</li> <li>• Lucky 14: Jackpot auf 14 Automaten mit Mindesteinsatz ab CHF 0.50.</li> <li>• Penny Jackpot: Einstieg ab CHF 0.01 und regelmässige Jackpot-Dynamik.</li> <li>• Goldenlink: Jackpot-Format mit progressivem Gewinnpotenzial.</li> <li>• Lion Link Jackpot: Multilevel Progressive Jackpot auf thematischen Automaten.</li> <li>• UTH Progressive Jackpot: Zusatzchance bei Ultimate Texas Hold’em.</li> <li>• Swiss Jack beim Blackjack: Zusatzchance mit Auszahlung bis 300x.</li> <li>• Grosse Gewinnbeispiele: Jackpot-Historie mit Beträgen von über CHF 4 900 000.</li> <li>• Multilevel Slots: Cash Connection, Thunder Cash, Fu Lai Cai Lai und Clover Link Xtreme mit mehreren Gewinnstufen.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Spezialangebote mit Spiel und Gastronomie </h3> <ul> <li>• Dine & Gamble ab CHF 89: Menü, Casino-Eintritt und Spielguthaben in einem Paket.</li> <li>• Casino Deluxe ab CHF 275 pro Person: Limousinenfahrt, 5-Gang-Menü, Champagnerglas und Casino-Eintritt.</li> <li>• Entertainment Dinner: Dinner, Show, Spielgefühl und interaktive Unterhaltung.</li> <li>• Dinner for Winner: kulinarischer Abend mit Casino-Flair.</li> <li>• Dine & Dance: Dinner und Tanzatmosphäre für einen langen Abend.</li> <li>• La Grande Grillade: saisonales Grill-Erlebnis mit geselligem Charakter.</li> <li>• Quiz Dinner: Dinner mit Fragen, Teamgeist und spielerischer Dynamik.</li> <li>• Tomahawk Special im PLÜ: kräftiger Genussmoment für Fleischliebhaber.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Turniere, Aktionen und saisonale Events </h3> <ul> <li>• Spin 2 Win Tournament: regelmässiges Turnierformat mit Slot-Dynamik.</li> <li>• Sonntagslotto: beliebtes Sonntagsformat mit Spiel- und Gewinnmomenten.</li> <li>• Nachmittagslotto: entspannte Lotto-Unterhaltung am Nachmittag.</li> <li>• Ladies Special: thematischer Besuchsanlass mit besonderer Atmosphäre.</li> <li>• Baden Lacht: Comedy-Abend mit mehreren Künstlern und starker Bühnenenergie.</li> <li>• Live Music & Afterwork: Musik, Bar, Begegnung und entspannte Abendstimmung.</li> <li>• Club COCO Events: Partys, DJ-Nights, Livemusik, Shows und Nightlife-Atmosphäre.</li> <li>• Saisonale Genussanlässe: Grillabende, Feiertagsformate und thematische Dinner.</li> </ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;"> Grand Casino Baden: Beliebte Spiele, Slots, Roulette, Blackjack und Poker </h3> <p> Im Grand Casino Baden bieten wir eine vielseitige Spielauswahl, die klassische Casino-Tradition mit modernen elektronischen Formaten verbindet. Unsere Gäste erleben über 310 Spielautomaten, progressive Jackpots, Live Roulette, Blackjack, Ultimate Texas Hold’em, elektronische Roulette-Stationen und Pokerformate nach aktuellem Kalender. Wir gestalten das Spielangebot so, dass unterschiedliche Spielstile Platz finden: schnelle Slots, ruhiges elektronisches Roulette, atmosphärische Live-Tische oder strategische Pokerentscheidungen. Spielautomaten sind besonders beliebt, weil sie Themenvielfalt, Bonusfunktionen, Jackpot-Systeme und flexible Einsätze kombinieren. Roulette bleibt ein Klassiker unseres Hauses, weil Rad, Jetons, Tischatmosphäre und einfache Regeln ein starkes Casino-Gefühl schaffen. Blackjack begeistert Gäste, die klare Regeln, Entscheidungen pro Hand und das Ziel 21 schätzen. Ultimate Texas Hold’em bringt Poker-Flair an den Tisch, ohne dass Gäste direkt gegeneinander spielen. Elektronische Spielformate eignen sich für Besucher, die im eigenen Tempo spielen möchten. Poker-Sessions und Turniere sprechen Gäste an, die Buy-in, Stack, Position und Wettbewerb lieben. Unser Team begleitet die Spiele professionell und erklärt auf Wunsch Regeln, Einsätze, Tickets, Jetons und Zusatzchancen. So kann ein Abend bei uns mit einem Slot beginnen, am Roulette-Tisch weitergehen und mit Blackjack, Poker, Dinner oder Musik ausklingen. Grand Casino Baden ist damit sowohl für Einsteiger als auch für erfahrene Casinogäste attraktiv. </p> <br> <h3 style = "font-weight: bold; font-size: 24px;"> Spielautomaten </h3> <ul> <li>• Über 310 Slots mit klassischen, Video- und Themenautomaten.</li> <li>• Progressive Jackpots wie Baden Jackpot, Lions Jackpot, Lucky 14, Penny Jackpot und Goldenlink.</li> <li>• Mindesteinsätze ab CHF 0.01 bei ausgewählten Automaten und Jackpot-Systemen.</li> <li>• Ticket-System zur Nutzung an weiteren Automaten oder zum Einlösen an der Kasse.</li> <li>• Multilevel-Spiele wie Cash Connection, Thunder Cash, Fu Lai Cai Lai und Clover Link Xtreme.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Roulette </h3> <ul> <li>• Live Roulette mit Croupier, Kessel, Jetons und klassischer Tischatmosphäre.</li> <li>• Einsätze ab CHF 2 im Tagesformat; am Abend und am Wochenende können andere Limiten gelten.</li> <li>• Breite Auswahl an Chancen, Zahlen, Kombinationen und einfachen Chancen.</li> <li>• Elektronische Roulette-Formate mit komfortablem individuellem Spieltempo.</li> <li>• Geeignet für neue Gäste und erfahrene Spieler, die klare Regeln und flexible Einsätze schätzen.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Blackjack </h3> <ul> <li>• Klassisches Ziel 21 mit Entscheidungen pro Hand.</li> <li>• Blackjack wird im klassischen Verhältnis 3:2 ausbezahlt.</li> <li>• Gespielt wird mit mehreren Kartendecks.</li> <li>• Swiss Jack als Zusatzchance mit Auszahlungen bis 300x.</li> <li>• Verschiedene Box-Limiten ermöglichen eine passende Einsatzwahl.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Ultimate Texas Hold’em </h3> <ul> <li>• Poker-Variante gegen den Dealer statt gegen andere Gäste.</li> <li>• Frühere Spielentscheidungen ermöglichen höhere Play-Einsätze.</li> <li>• Trips Bonus für Kombinationen ab Drilling.</li> <li>• Progressive Jackpot als zusätzliche Gewinnchance.</li> <li>• Envy Bonus bei bestimmten progressiven Gewinnsituationen anderer Spieler.</li> </ul><br> <h3 style = "font-weight: bold; font-size: 24px;"> Poker </h3> <ul> <li>• Cash Games mit strategischer Live-Atmosphäre.</li> <li>• No Limit 5/5 mit Buy-in ab CHF 200 bis CHF 1 000.</li> <li>• No Limit 5/10 mit Buy-in ab CHF 400 bis CHF 2 000.</li> <li>• Turnierformate wie Texas Hold’em und Omaha nach aktuellem Kalender.</li> <li>• Beispielhafte Turnier-Buy-ins von CHF 99, CHF 170 und CHF 333 je nach Format.</li> </ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;"> Grand Casino Baden: Mindest- und Höchsteinsätze nach Spielen </h3> <p> Im Grand Casino Baden wählen Gäste zwischen niedrigen Einstiegseinsätzen, klassischen Tischlimiten und grösseren Spielformaten. Unsere Einsatzstruktur reicht von Slots ab CHF 0.01 bis zu Live-Tischen mit deutlich höheren Limiten je nach Spiel, Chance und Tischkategorie. Die aktuellen Limiten sind direkt am Spieltisch oder im jeweiligen Spielformat ersichtlich, und unser Team unterstützt gerne bei der passenden Auswahl. Die folgende Übersicht zeigt wichtige Orientierungswerte für beliebte Spiele und Bereiche. </p> <br> <div style="width:100%; max-width:100%; overflow:hidden;"> <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;"> <tr> <th style="width:28%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"> Spiel oder Bereich </th> <th style="width:24%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"> Mindesteinsatz / Buy-in </th> <th style="width:24%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"> Höchstbetrag / Potenzial </th> <th style="width:24%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;"> Besonderheit </th> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Penny Jackpot Slots</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab CHF 0.01</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Jackpot abhängig vom System</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Niedriger Einstieg in Jackpot-Unterhaltung</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Lions Jackpot Slots</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab CHF 0.02</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">progressiver Jackpot</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Beliebtes Slot-Jackpot-System</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Baden Jackpot Slots</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab CHF 0.05</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">progressiver Jackpot</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Eigenes Jackpot-Erlebnis im Grand Casino Baden</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Lucky 14 Jackpot</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab CHF 0.50</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">progressiver Jackpot</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Teilnahme auf 14 Automaten</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Elektronisches Roulette</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab CHF 1</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">nach elektronischem Limit</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Individuelles Spieltempo und digitale Bedienung</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live Roulette</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab CHF 2, abends und am Wochenende ab CHF 5</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">bis CHF 20 000 auf ausgewählten Chancen</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Klassischer Live-Tisch mit breiter Einsatzspanne</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Blackjack</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">ab CHF 4</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">bis CHF 10 000 pro Box je nach Tischlimit</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Blackjack 3:2 und Swiss Jack Zusatzchance</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Poker No Limit 5/5</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Buy-in ab CHF 200</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Buy-in bis CHF 1 000</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Live Cash Game mit strategischem Fokus</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Poker No Limit 5/10</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Buy-in ab CHF 400</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Buy-in bis CHF 2 000</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Grössere Poker-Dynamik</td> </tr> <tr> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Pokerturniere</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Beispiele: CHF 99, CHF 170, CHF 333</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Preispool je nach Turnier</td> <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Texas Hold’em, Omaha und Sonderstrukturen</td> </tr> </table> </div>
+<h3 style = "font-weight: bold;font-size: 32px;"> Grand Casino Baden: Events, Shows, Partys und Unterhaltung </h3> <p> Grand Casino Baden ist nicht nur ein Ort für Spielautomaten und Live-Tische, sondern auch eine vielseitige Bühne für Abendunterhaltung. Wir verbinden Casino Night, Gastronomie, Musik, Comedy, Spielturniere, Themenpartys und gesellige Begegnungen in einem stilvollen Umfeld. Regelmässige Formate wie Lotto, Spin 2 Win, Ladies Special, Pokerturniere, Afterwork, Live Music, Dine & Dance, Quiz Dinner und saisonale Genussabende machen unseren Kalender lebendig. Gäste wählen je nach Stimmung zwischen entspanntem Afterwork-Drink, Dinner mit Show, Turnierabend, Tanznacht oder langem Wochenendevent.<br><br> Ein besonderer Bestandteil unserer Unterhaltung ist die Club- und Musikstimmung. COCO Baden ergänzt unser Casino-Erlebnis mit Partys, Livemusik, Shows, privaten Feiern, Firmenevents und Clubformaten. Henry’s Live Music & Sport Bar bringt Afterwork, Barstimmung, Sportmomente und Live Music in den Abend. Viele Gäste starten im PLÜ Restaurant & Lounge, wechseln danach an Roulette oder Blackjack und lassen den Abend später mit Musik, Drinks und Tanz ausklingen. Für Gruppen ist das besonders attraktiv, weil Spiel, Dinner, Bar und Nightlife an einem Ort zusammenkommen.<br><br> Unsere Events werden durch kulinarische Formate ergänzt. Dine & Gamble, Casino Deluxe, Entertainment Dinner, Dinner for Winner, Dine & Dance, Quiz Dinner und La Grande Grillade machen aus einem Abendessen ein komplettes Erlebnis. Wir achten auf Menü, Getränke, Atmosphäre, Service und den passenden Rhythmus des Abends. So entsteht ein Besuch, der über ein klassisches Dinner hinausgeht und Casino-Flair mit Genuss verbindet.<br><br> Comedy-Abende, saisonale Specials, Themenpartys und Turniere bringen zusätzliche Dynamik in das Jahr. Baden Lacht sorgt für Bühnenenergie, Lotto schafft ein beliebtes regelmässiges Ritual und Spin 2 Win bringt sportlichen Wettbewerb ins Spiel. Wir aktualisieren unser Programm laufend, damit Gäste immer wieder neue Anlässe für einen Besuch im Grand Casino Baden finden. Jedes Event bleibt dabei unserem Stil treu: elegant, lebendig, gastfreundlich und voller Spannung. </p> <br> <h3 style = "font-weight: bold; font-size: 24px;"> Unterhaltung im Grand Casino Baden </h3> <ul> <li>• Live Music: Auftritte für Afterwork, Barstimmung und entspannte Abendmomente.</li> <li>• Afterwork: Drinks, Musik, Begegnung und lockeres Casino-Flair nach dem Arbeitstag.</li> <li>• Dine & Dance: Dinner mit anschliessender Tanzatmosphäre.</li> <li>• Entertainment Dinner: Essen, Show, Interaktion und Abendprogramm in einem Format.</li> <li>• Dinner for Winner: kulinarischer Abend mit Spielgefühl und Gewinnerstimmung.</li> <li>• Quiz Dinner: Dinner mit Fragen, Teams und spielerischem Wettbewerb.</li> <li>• La Grande Grillade: saisonales Grill-Erlebnis mit geselligem Charakter.</li> <li>• Baden Lacht: Comedy-Event mit mehreren Künstlern und starker Bühnenpräsenz.</li> <li>• Sonntagslotto: regelmässige Lotto-Unterhaltung mit Gewinnmomenten.</li> <li>• Nachmittagslotto: Lotto-Format für Gäste, die den Nachmittag bevorzugen.</li> <li>• Spin 2 Win Tournament: dynamisches Turnier mit Slot-Spannung.</li> <li>• Ladies Special: thematischer Anlass für einen stilvollen Besuch.</li> <li>• COCO Baden: Partys, Livemusik, Shows, private Feiern und Firmenevents.</li> <li>• Clubabende und DJ-Partys: Nightlife-Atmosphäre für lange Casino-Abende.</li> <li>• 80s- und 90s-Partys: Musikklassiker, Tanzfläche und nostalgische Energie.</li> <li>• Latin Social Club: Salsa, Bachata und Social Dancing.</li> <li>• House of Bachata: Tanzformat mit Bachata-Rhythmus und Abendstimmung.</li> <li>• Urban Golf: spielerisches Gruppenerlebnis mit lockerem Charakter.</li> <li>• Pokerturniere: Texas Hold’em und Omaha für Gäste mit strategischem Spielinteresse.</li> </ul><br><h3 style = "font-weight: bold;font-size: 32px;"> Grand Casino Baden: Bars, Restaurants, Hotelvorteile und Genussmomente </h3> <p> Grand Casino Baden bietet ein vollständiges Abenderlebnis, bei dem Spiel, Bar, Restaurant, Clubatmosphäre und Erholung natürlich ineinanderfliessen. Unsere Gäste besuchen nicht nur Spielbereiche, sondern auch kulinarische Orte, an denen ein Lunch, ein Dinner, ein Lounge-Moment oder ein Treffen vor dem Spiel beginnt. Im Mittelpunkt steht das PLÜ Restaurant & Lounge mit feiner Küche, sorgfältiger Präsentation, À-la-carte-Angebot, saisonalen Spezialitäten und Sonntagsbrunch. Der Name PLÜ steht für die Idee von etwas mehr: mehr Geschmack, mehr Aufmerksamkeit, mehr Atmosphäre und mehr Anlass, den Abend bei uns zu verbringen.<br><br> Im Grand Casino Baden lassen sich Restaurant und Spiel bequem verbinden. Dine & Gamble ab CHF 89 kombiniert Menü, Casino-Eintritt und Spielguthaben zu einem fertigen Abendformat. Casino Deluxe ab CHF 275 pro Person ergänzt das Dinner mit Limousine, Champagnerglas, 5-Gang-Menü und besonderem Anlassgefühl. Wer einen freien Ablauf bevorzugt, nutzt unsere Barbereiche für Drinks, Gespräche, Sportmomente oder einen stimmungsvollen Abschluss nach den Live-Tischen. So entsteht ein Abend, der kulinarisch beginnt und mit Roulette, Blackjack, Slots, Poker, Musik oder Drinks weitergehen kann.<br><br> Unsere Bars und Lounge-Zonen tragen wesentlich zur Casino-Night-Stimmung bei. Gäste pausieren zwischen Slots und Roulette, treffen sich vor dem Dinner, geniessen einen Cocktail nach einem Gewinn oder wechseln später zu Live Music und Afterwork-Atmosphäre. Sportbar, Henry’s Live Music & Sport Bar, Bugsy und COCO Baden ergänzen die Spielzonen mit unterschiedlichen Erlebnissen. So entstehen Varianten für Casual Drinks, Musik, Tanz, Gespräche, Gruppenabende und stilvolle Pausen.<br><br> Hotelvorteile sind über höhere Grand Winners Stufen verfügbar, insbesondere im Black Circle mit kostenlosen Hotelnächten und zusätzlichem persönlichem Service. Ergänzt wird das Erlebnis durch Valet Parking, Limousinenformate, Eintrittsvorteile, Restaurantprivilegien und Services für besondere Anlässe. Gäste können ihren Besuch als kurzen Drink-and-Play-Moment, als kompletten Dinner-&-Casino-Abend oder als festlichen Abend mit Show, Club und Gastronomie planen. Im Grand Casino Baden gestalten wir Erholung so, dass Gäste sich in jeder Phase willkommen, sicher und stilvoll fühlen. </p> <br> <h3 style = "font-weight: bold; font-size: 24px;"> Genuss- und Aufenthaltsorte im Grand Casino Baden </h3> <ul> <li>• PLÜ Restaurant & Lounge: zentrale Gastronomie mit À-la-carte-Menü, saisonalen Gerichten, Lounge-Charakter und Dinner vor dem Spiel.</li> <li>• Sonntagsbrunch im PLÜ: reichhaltiger Brunch mit warmen Speisen, Eierspeisen, Desserts und entspanntem Start in den Tag.</li> <li>• Dine & Gamble: Paket ab CHF 89 mit Menü, Casino-Eintritt und Spielguthaben.</li> <li>• Casino Deluxe: Premiumformat ab CHF 275 pro Person mit Limousine, 5-Gang-Menü, Champagnerglas und Casino-Eintritt.</li> <li>• Entertainment Dinner: Dinner mit Show, Unterhaltung und Casino-Flair.</li> <li>• Dine & Dance: Restaurantabend mit anschliessender Tanz- und Musikstimmung.</li> <li>• La Grande Grillade: saisonales Grillformat für Genuss, Begegnung und Abendatmosphäre.</li> <li>• Tomahawk Special: kräftiger Genussakzent im PLÜ für ein ausdrucksstarkes Dinner.</li> <li>• Casino Bar: Barbereich für Cocktails, Treffen, Spielpausen und den Ausklang des Abends.</li> <li>• Sportbar: Ort für Drinks, Sportmomente, Gespräche und entspannte Casino-Stimmung.</li> <li>• Henry’s Live Music & Sport Bar: Afterwork, Live Music, Sport und Abendenergie.</li> <li>• Bugsy: atmosphärischer Barpunkt für Drinks und leichte Erholung rund um das Spiel.</li> <li>• COCO Baden: Club- und Eventlocation für Partys, Livemusik, Shows, private Feiern und Nightlife-Feeling.</li> <li>• Hotelvorteile für Grand Winners: kostenlose Hotelnächte und erweiterte Privilegien auf höchster Clubstufe.</li> <li>• Valet Parking: täglicher Abendservice ab 19:00 für eine komfortable Ankunft.</li> <li>• Limousinen-Erlebnis: Format für besondere Anlässe mit Transfer, Dinner und Casino-Abend.</li> </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>FAQ </span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="welche_vorteile_knnen_grand_winners_mitglieder_erhalten"/><label
+                            class="faqLabel" for="welche_vorteile_knnen_grand_winners_mitglieder_erhalten">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Welche Vorteile können GRAND WINNERS Mitglieder erhalten? </span></label>
+                        <div class="faqContent">
+                            <p>GRAND WINNERS Mitglieder können ausgewählte Vorteile, Promotionen und Gästeclub-Vorteile erhalten.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="gibt_es_ein_offizielles_onlinecasino_das_mit_grand_casino_baden_verbunden_ist"/><label
+                            class="faqLabel" for="gibt_es_ein_offizielles_onlinecasino_das_mit_grand_casino_baden_verbunden_ist">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Gibt es ein offizielles Online-Casino, das mit Grand Casino Baden verbunden ist? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, jackpots.ch ist das offizielle Online-Casino von Grand Casino Baden.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="wann_wurde_jackpotsch_gestartet"/><label
+                            class="faqLabel" for="wann_wurde_jackpotsch_gestartet">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Wann wurde jackpots.ch gestartet? </span></label>
+                        <div class="faqContent">
+                            <p>jackpots.ch wurde im Juli 2019 als erstes legales Online-Casino der Schweiz gestartet.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="stellt_grand_casino_baden_datenschutzinformationen_bereit"/><label
+                            class="faqLabel" for="stellt_grand_casino_baden_datenschutzinformationen_bereit">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Stellt Grand Casino Baden Datenschutzinformationen bereit? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, unser Casino stellt eine Datenschutzerklärung bereit, die Gäste über die Verarbeitung und Nutzung personenbezogener Daten informiert.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://grandcasinobasel-online.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1782133938-logo.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Grand Casino Baden" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Grand Casino Baden" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Grand Casino Baden" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Grand Casino Baden" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Grand Casino Baden" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Grand Casino Baden" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Grand Casino Baden" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Grand Casino Baden" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Grand Casino Baden" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Grand Casino Baden" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Grand Casino Baden" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Grand Casino Baden" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Grand Casino Baden" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Grand Casino Baden" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Grand Casino Baden" /></div>
+            </div>
+        </div>
+        <div class="footerNavBlock">
+            <nav>
+                <ul class="nav__list--footer">
+                    <li class="footer__navItem"><a href="index">index</a></li>
+                    <li class="footer__navItem"><a href="restaurants">Restaurants</a></li>
+                    <li class="footer__navItem"><a href="online">Online</a></li>
+                    <li class="footer__navItem"><a href="vip">VIP</a></li>
+                    <li class="footer__navItem"><a href="events">Events</a></li>
+                    <li class="footer__navItem"><a href="uberuns">Über uns</a></li>
+                    <li class="footer__navItem"><a href="nutzungsbedingungen">Nutzungsbedingungen</a></li>
+                    <li class="footer__navItem"><a href="datenschutz">Datenschutz</a></li>
+                    <li class="footer__navItem"><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Grand Casino Baden </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Bonus sichern";
+    var welcomeBonusText = "Willkommensbonus";
+    var bonusDetailsButtonText = "";
+    var playNowText = "Jetzt spielen";
+    var maximumAmountText = "";
+    var wagerText = "";
+    var bonusCodeText = "";
+    var depositText = "";
+    var casinoName = "Grand Casino Baden";
+</script>
+
+</body>
+</html>
