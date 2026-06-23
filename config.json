@@ -64,7 +64,7 @@
             "imageXModifier": 0,
             "mobileImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/8971",
             "mobileImageSizeModifier": 0,
-            "mobileImageYModifier": 0,
+            "mobileImageYModifier": 1,
             "mobileImageXModifier": 0
         },
         "nav": {
