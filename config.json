@@ -40,7 +40,7 @@
             "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/8965"
         },
         "seoGlobal": {
-            "name": "Grand Casino Baden",
+            "name": "Grand Casino Basel",
             "ogImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/8966",
             "ogImageWidth": 1200,
             "ogImageHeight": 630,
@@ -51,7 +51,7 @@
             "imageSizeModifier": 0,
             "imageYModifier": 0,
             "imageXModifier": 0,
-            "logoAlt": "Grand Casino Baden"
+            "logoAlt": "Grand Casino Basel"
         },
         "heroGlobal": {
             "textDesktop": "Exklusives Willkommensangebot von",
@@ -81,7 +81,7 @@
             "imageSizeModifier": 0,
             "imageYModifier": 0,
             "imageXModifier": 0,
-            "copyright": "Grand Casino Baden"
+            "copyright": "Grand Casino Basel"
         }
     },
     "language": {
@@ -117,14 +117,14 @@
                     ],
                     "advantagesAfterText": "Die Kombination aus grossem Spielangebot, langen Öffnungszeiten und direkter Hotelanbindung macht das Grand Casino Basel zur starken Wahl für Weekend‑Trips und für Jackpot‑Jäger wie auch Liebhaber klassischer Tischspiele.",
                     "knowMore": "Mehr erfahren",
-                    "appTitle": "Grand Casino Baden App",
+                    "appTitle": "Grand Casino Basel App",
                     "mobile": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/8972",
                     "imageSizeModifier": 0,
                     "imageYModifier": 0,
                     "imageXModifier": 0,
-                    "mobileAlt": "Grand Casino Baden App",
-                    "mobileGooglePlayImageTitle": "Grand Casino Baden App",
-                    "mobileIosImageTitle": "Grand Casino Baden App"
+                    "mobileAlt": "Grand Casino Basel App",
+                    "mobileGooglePlayImageTitle": "Grand Casino Basel App",
+                    "mobileIosImageTitle": "Grand Casino Basel App"
                 },
                 "games": {
                     "playNowText": "Jetzt spielen",
